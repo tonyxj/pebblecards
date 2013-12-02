@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get customizable RSS feeds, News, Calendar, Weather, Stocks, World Clock, and more, right on your Pebble watch. Pebble Cards is available for iOS and Android.">
+    <meta property="og:title" content="Pebble Cards" />
+    <meta property="og:url" content="http://keanulee.com/pebblecards/" />
+    <meta property="og:image" content="http://keanulee.com/pebblecards/images/ogimage.jpg" />
+
+    <title>Pebble Cards | Customizable Watch Screen for Pebble</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/jumbotron.css" rel="stylesheet">
+
+    <!-- Watchface fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:700|Roboto+Condensed' rel='stylesheet' type='text/css'>
+
+    <!-- Font Awesome -->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/pebblecards/">Pebble Cards</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/pebblecards/support.html">Support</a></li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8">
+            <h1>
+              Introducing<br />
+              Pebble Cards
+            </h1>
+            <p>
+              Information you care about, right on your wrist.
+              Available for iOS and Android.
+            </p>
+            <p>
+              <a href="build/pebblecardsapp.pbw" class="btn btn-primary btn-lg download-btn" role="button">
+                Download Now <small>(v1.3)</small> &raquo;
+              </a> <br />
+              <small>
+                (Click on your smartphone)<br />
+                <a href="https://developer.getpebble.com/2/getting-started/" class="label label-danger sdk-2-label">
+                  Requires Pebble Firmware 2.0 BETA
+                </a>
+              </small>
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <div class="watch-image">
+              <div class="watch-strap"></div>
+              <div class="watch-joint"></div>
+              <div class="watch-face">
+                Sat, Nov 9
+                <span class="time">9:41</span>
+                <span class="card-content">Loading...</span>
+              </div>
+              <div class="watch-joint"></div>
+              <div class="watch-strap"></div>
+              <div class="watch-back-button"></div>
+              <div class="watch-up-button"></div>
+              <div class="watch-middle-button"></div>
+              <div class="watch-down-button"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h3>Customizable Cards</h3>
+          <p>Add cards that contain the information you care about, such as headlines from your favourite RSS feed, your next Google calendar appointment, local weather, stocks, a world clock, and even a simple note. Customize your cards from within the Pebble App on your smartphone.</p>
+        </div>
+        <div class="col-md-4">
+          <h3>Always Visible</h3>
+          <p>The date, time, and card are always visible on the Pebble, without having to press a single button. Use the up and down buttons to cycle through all your cards. Press the middle button to refresh the current card. Hold the middle button to see more details.</p>
+       </div>
+        <div class="col-md-4">
+          <h3>Pebble Firmware 2.0</h3>
+          <p>Pebble Cards uses the Pebble firmware 2.0, which is currently in Beta. Download the updated Pebble mobile application and firmware, and you're ready to install Pebble Cards! No need to install the SDK on your computer.</p>
+          <p><a href="https://developer.getpebble.com/2/getting-started/" class="btn btn-success sdk-2-btn" role="button">
+            Get Pebble Firmware 2.0 &raquo;
+          </a></p>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="row">
+        <div class="col-sm-4">
+          <img class="thumbnail settings-screen-thumbnail" src="images/screens/settings.png" alt="Settings Screen" />
+        </div>
+        <div class="col-sm-8">
+          <h2>Settings Screen</h2>
+          <h2><small>Easily add, change, and remove cards from your smartphone. Access the settings screen through the offical Pebble App. Change the watch display to day, night, or automatic mode. Get a vibrate notification on the hour. Sign in with your Google account to access the Calendar card.</small></h2>
+        </div>
+      </div>
+
+      <hr />
+
+      <h2>Card Types</h2>
+      <div class="card-types-row">
+        <div class="thumbnail">
+          <img src="images/screens/calendar.png" alt="Calendar Card" />
+          <div class="caption">
+            <i class="fa fa-4x fa-calendar"></i>
+            <h4>Calendar</h4>
+            See your upcoming Google Calendar events.
+          </div>
+        </div>
+        <div class="thumbnail">
+          <img src="images/screens/rss.png" alt="RSS Card" />
+          <div class="caption">
+            <i class="fa fa-4x fa-rss"></i>
+            <h4>RSS</h4>
+            Read the latest headline from any RSS feed.
+          </div>
+        </div>
+        <div class="thumbnail">
+          <img src="images/screens/stock.png" alt="Stock Card" />
+          <div class="caption">
+            <i class="fa fa-4x fa-bar-chart-o"></i>
+            <h4>Stock</h4>
+            Get the latest stock price and change from Yahoo!
+          </div>
+        </div>
+        <div class="thumbnail">
+          <img src="images/screens/world_clock.png" alt="World Clock Card" />
+          <div class="caption">
+            <i class="fa fa-4x fa-clock-o"></i>
+            <h4>World Clock</h4>
+            Show the time of any time zone with a location label.
+          </div>
+        </div>
+        <div class="thumbnail">
+          <img src="images/screens/weather.png" alt="Weather Card" />
+          <div class="caption">
+            <i class="fa fa-4x fa-sun-o"></i>
+            <h4>Weather</h4>
+            Check the current weather conditions from Yahoo!
+          </div>
+        </div>
+        <div class="thumbnail">
+          <img src="images/screens/note.png" alt="Note Card" />
+          <div class="caption">
+            <i class="fa fa-4x fa-pencil"></i>
+            <h4>Note</h4>
+            Remind yourself about an arbitrary piece of information.
+          </div>
+        </div>
+        <div class="thumbnail">
+          <img src="images/screens/battery.png" alt="Battery Card" />
+          <div class="caption">
+            <i class="fa fa-4x fa-bolt"></i>
+            <h4>Battery</h4>
+            Check the battery charge of your Pebble watch.
+          </div>
+        </div>
+        <div class="thumbnail">
+          <img src="images/screens/sports_team.png" alt="Sports Team Card" />
+          <div class="caption">
+            <i class="fa fa-4x fa-dribbble"></i>
+            <h4>Sports Team</h4>
+            Get scores and game times from NBC Sports.
+          </div>
+        </div>
+        <div class="thumbnail">
+          <img src="images/screens/transit.png" alt="Transit Card" />
+          <div class="caption">
+            <i class="fa fa-4x fa-location-arrow"></i>
+            <h4>Transit</h4>
+            See departure times for the stops you use from NextBus.
+          </div>
+        </div>
+        <div class="thumbnail">
+          <img src="images/screens/driving_time.png" alt="Driving Time Card" />
+          <div class="caption">
+            <i class="fa fa-4x fa-road"></i>
+            <h4>Driving Time</h4>
+            Check traffic conditions from MapQuest.
+          </div>
+        </div>
+        <div class="thumbnail">
+          <img src="images/screens/custom.png" alt="Custom Card" />
+          <div class="caption">
+            <i class="fa fa-4x fa-code"></i>
+            <h4>Custom</h4>
+            Display custom content from your own JSON source.
+          </div>
+        </div>
+      </div>
+
+      <hr />
+
+      <h2>Change Log</h2>
+
+      <dl class="dl-horizontal">
+        <dt>v1.4</dt>
+        <dd>
+          (Planned)
+        </dd>
+
+        <dt>v1.3</dt>
+        <dd>
+          <em>NOTE: This release changes the UUID, meaning cards and settings will need to be reset.</em><br />
+          Adds Travel Time, Transit, and Custom cards.<br />
+          The line on the display is now a batter status indicator.
+        </dd>
+
+        <dt>v1.2</dt>
+        <dd>
+          Adds (Pebble) Battery and Sports Team cards.<br />
+          Adds vibrate on hour setting.<br />
+          More responsive watch button presses.<br />
+          Location information can update more than once per app launch.<br />
+          Recovery from website outage (restores Calendar card).
+        </dd>
+
+        <dt>v1.1</dt>
+        <dd>
+          Adds details view for each card - hold the middle button to see more details for the current card.<br />
+          Adds day/night modes - configurable; auto will invert colors between 6:00 and 18:00.<br />
+          Improves reliability of Calendar card.<br />
+          Better location search on Weather card.<br />
+          Remove currency symbol from Stock card to reflect international markets.
+        </dd>
+
+        <dt>v1.0.3</dt>
+        <dd>
+          Improves reliability of auto-refresh.<br />
+          Adds Local Weather/Weather cards.<br />
+          Rearrangable cards.<br />
+          Able to switch Google Accounts after having signed in once.
+        </dd>
+
+        <dt>v1.0.2</dt>
+        <dd>
+          Fixes RSS feeds with one entry.<br />
+          Better handling of line breaks (Weather card).<br />
+          Adds automatic hourly refresh to most cards.
+        </dd>
+
+        <dt>v1.0.1</dt>
+        <dd>
+          Adds Fahrenheit setting for Weather card.<br />
+          Shows HTTP errors on watch.
+        </dd>
+
+        <dt>v1.0.0</dt>
+        <dd>
+          First release.<br />
+          Adds Calendar, RSS, Stock, World Clock, Weather, and Note cards.
+        </dd>
+      </dl>
+
+      <hr />
+
+      <h2>Need help? Got feedback?</h2>
+      <h2>
+        <small>
+          Find known issues, view the FAQs, and contact me.
+        </small>
+      </h2>
+      <a class="btn btn-default" href="/pebblecards/support.html">Support &raquo;</a>
+
+      <hr />
+
+      <footer>
+        <p>&copy; 2013 Keanu Lee</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <!-- AddThis Smart Layers BEGIN -->
+    <!-- Go to http://www.addthis.com/get/smart-layers to customize -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-5284258d68b3e13b"></script>
+    <script type="text/javascript">
+      addthis.layers({
+        'theme' : 'transparent',
+        'share' : {
+          'position' : 'left',
+          'numPreferredServices' : 5
+        } 
+      });
+    </script>
+    <!-- AddThis Smart Layers END -->
+
+    <!-- Google Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-39573523-1', 'keanulee.com');
+    ga('send', 'pageview');
+    </script>
+  </body>
+</html>
