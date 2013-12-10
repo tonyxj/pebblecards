@@ -63,12 +63,6 @@
           </ul>
         </li>
         <li>
-          &lt;select&gt; menus not opening on Android devices. This affects general Pebble Cards settings (Display, Vibrate on Hour) and Weather/Sports Team cards.
-          <ul>
-            <li>Pebble is working on a fix for this.</li>
-          </ul>
-        </li>
-        <li>
           Degrees symbol (&deg;) not displaying correctly on the Weather card when paired with Android devices.
           <ul>
             <li>Pebble has been notified of this issue.</li>
@@ -148,6 +142,20 @@
           <div id="collapseCardSpecific" class="panel-collapse collapse">
             <div class="panel-body">
               <h4>
+                How often do cards auto-refresh?
+              </h4>
+              <p>
+                Cards update on the hour, except for:
+              </p>
+              <ul>
+                <li>Transit: every 1 minute</li>
+                <li>World Clock: every 1 minute</li>
+                <li>Battery: every 5 minutes</li>
+                <li>Custom: depends; defaults to every 60 minutes</li>
+              </ul>
+
+
+              <h4>
                 Calendar: Why are my events not showing?
               </h4>
               <p>
@@ -196,12 +204,9 @@
                 The custom card displays content from a JSON response from any URL. It is intended for developers only, so please don't send me emails asking "What URL do I use?" For example, the default URL <a href="http://keanulee.com/pebblecards/custom_sample.php?name=John">http://keanulee.com/pebblecards/custom_sample.php?name=John</a> responds with:
               </p>
               <pre>{
-      "content" : "Hello John,\nWelcome to Pebble Cards!",
-      "refresh_frequency" : 30
-    }</pre>
-              <p>
-                where:
-              </p>
+  "content" : "Hello John,\nWelcome to Pebble Cards!",
+  "refresh_frequency" : 30
+}</pre>
               <blockquote><code>content</code> is the content to display (required); and<br />
                 <code>refresh_frequency</code> is the auto-refresh interval in minutes (defaults to 60 minutes if 0 or not specified)<br /><br />
                 All other fields are ignored.
@@ -227,13 +232,6 @@
               </h4>
               <p>
                 Restart both the Pebble watch and Android phone. This is a known issue, and Pebble will probably fix this before firmware 2.0 is released to the public.
-              </p>
-
-              <h4>
-                Why can't I modify certain settings (Display, Vibrate on Hour, Units on Weather card, League on Sports Team card) on the Settings Screen on Andorid?
-              </h4>
-              <p>
-                There is an issue with the Pebble mobile app on Android that prevents HTML &lt;select&gt; menus from being opened. Pebble is aware of this issue and is actively working on a fix, which should be available in future Pebble mobile app releases.
               </p>
             </div>
           </div>
