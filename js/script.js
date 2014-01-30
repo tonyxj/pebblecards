@@ -34,17 +34,10 @@ $(document).ready(function() {
 	});
 
 	$(".download-btn").click(function() {
-		if (window.confirm("Pebble Cards requires Pebble firmware 2.0 BETA to be installed on both the WATCH and SMARTPHONE. Did you install Pebble firmware 2.0 BETA on both devices?")) {
-			ga('send', 'event', 'download-btn', 'click');
-		}
-		else return false;
+		ga('send', 'event', 'download-btn', 'click');
 	});
 
 	$(".sdk-2-btn").click(function() {
 		ga('send', 'event', 'sdk-2-btn', 'click');
-	});
-
-	$(".sdk-2-label").click(function() {
-		ga('send', 'event', 'sdk-2-label', 'click');
 	});
 });
