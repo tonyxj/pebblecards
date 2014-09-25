@@ -4,25 +4,30 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
+/* line 9, ../sass/partials/_normalize.scss */
 html {
   font-family: sans-serif;
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
   -webkit-text-size-adjust: 100%;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Remove default margin.
  */
+/* line 19, ../sass/partials/_normalize.scss */
 body {
-  margin: 0; }
+  margin: 0;
+}
 
 /* HTML5 display definitions
    ========================================================================== */
 /**
  * Correct `block` display not defined in IE 8/9.
  */
+/* line 41, ../sass/partials/_normalize.scss */
 article,
 aside,
 details,
@@ -35,12 +40,14 @@ main,
 nav,
 section,
 summary {
-  display: block; }
+  display: block;
+}
 
 /**
  * 1. Correct `inline-block` display not defined in IE 8/9.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
+/* line 53, ../sass/partials/_normalize.scss */
 audio,
 canvas,
 progress,
@@ -48,142 +55,181 @@ video {
   display: inline-block;
   /* 1 */
   vertical-align: baseline;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
+/* line 63, ../sass/partials/_normalize.scss */
 audio:not([controls]) {
   display: none;
-  height: 0; }
+  height: 0;
+}
 
 /**
  * Address `[hidden]` styling not present in IE 8/9.
  * Hide the `template` element in IE, Safari, and Firefox < 22.
  */
+/* line 74, ../sass/partials/_normalize.scss */
 [hidden],
 template {
-  display: none; }
+  display: none;
+}
 
 /* Links
    ========================================================================== */
 /**
  * Remove the gray background color from active links in IE 10.
  */
+/* line 85, ../sass/partials/_normalize.scss */
 a {
-  background: transparent; }
+  background: transparent;
+}
 
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
+/* line 94, ../sass/partials/_normalize.scss */
 a:active,
 a:hover {
-  outline: 0; }
+  outline: 0;
+}
 
 /* Text-level semantics
    ========================================================================== */
 /**
  * Address styling not present in IE 8/9, Safari 5, and Chrome.
  */
+/* line 105, ../sass/partials/_normalize.scss */
 abbr[title] {
-  border-bottom: 1px dotted; }
+  border-bottom: 1px dotted;
+}
 
 /**
  * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
+/* line 114, ../sass/partials/_normalize.scss */
 b,
 strong {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 /**
  * Address styling not present in Safari 5 and Chrome.
  */
+/* line 122, ../sass/partials/_normalize.scss */
 dfn {
-  font-style: italic; }
+  font-style: italic;
+}
 
 /**
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari 5, and Chrome.
  */
+/* line 131, ../sass/partials/_normalize.scss */
 h1 {
   font-size: 2em;
-  margin: 0.67em 0; }
+  margin: 0.67em 0;
+}
 
 /**
  * Address styling not present in IE 8/9.
  */
+/* line 140, ../sass/partials/_normalize.scss */
 mark {
   background: #ff0;
-  color: #000; }
+  color: #000;
+}
 
 /**
  * Address inconsistent and variable font size in all browsers.
  */
+/* line 149, ../sass/partials/_normalize.scss */
 small {
-  font-size: 80%; }
+  font-size: 80%;
+}
 
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
+/* line 158, ../sass/partials/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
+/* line 165, ../sass/partials/_normalize.scss */
 sup {
-  top: -0.5em; }
+  top: -0.5em;
+}
 
+/* line 169, ../sass/partials/_normalize.scss */
 sub {
-  bottom: -0.25em; }
+  bottom: -0.25em;
+}
 
 /* Embedded content
    ========================================================================== */
 /**
  * Remove border when inside `a` element in IE 8/9.
  */
+/* line 180, ../sass/partials/_normalize.scss */
 img {
-  border: 0; }
+  border: 0;
+}
 
 /**
  * Correct overflow displayed oddly in IE 9.
  */
+/* line 188, ../sass/partials/_normalize.scss */
 svg:not(:root) {
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 /* Grouping content
    ========================================================================== */
 /**
  * Address margin not present in IE 8/9 and Safari 5.
  */
+/* line 199, ../sass/partials/_normalize.scss */
 figure {
-  margin: 1em 40px; }
+  margin: 1em 40px;
+}
 
 /**
  * Address differences between Firefox and other browsers.
  */
+/* line 207, ../sass/partials/_normalize.scss */
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
-  height: 0; }
+  height: 0;
+}
 
 /**
  * Contain overflow in all browsers.
  */
+/* line 217, ../sass/partials/_normalize.scss */
 pre {
-  overflow: auto; }
+  overflow: auto;
+}
 
 /**
  * Address odd `em`-unit font size rendering in all browsers.
  */
+/* line 228, ../sass/partials/_normalize.scss */
 code,
 kbd,
 pre,
 samp {
   font-family: monospace, monospace;
-  font-size: 1em; }
+  font-size: 1em;
+}
 
 /* Forms
    ========================================================================== */
@@ -197,6 +243,7 @@ samp {
  * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
  */
+/* line 252, ../sass/partials/_normalize.scss */
 button,
 input,
 optgroup,
@@ -207,13 +254,16 @@ textarea {
   font: inherit;
   /* 2 */
   margin: 0;
-  /* 3 */ }
+  /* 3 */
+}
 
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10.
  */
+/* line 262, ../sass/partials/_normalize.scss */
 button {
-  overflow: visible; }
+  overflow: visible;
+}
 
 /**
  * Address inconsistent `text-transform` inheritance for `button` and `select`.
@@ -221,9 +271,11 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8+, and Opera
  * Correct `select` style inheritance in Firefox.
  */
+/* line 274, ../sass/partials/_normalize.scss */
 button,
 select {
-  text-transform: none; }
+  text-transform: none;
+}
 
 /**
  * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
@@ -232,6 +284,7 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
+/* line 289, ../sass/partials/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -239,29 +292,36 @@ input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
   cursor: pointer;
-  /* 3 */ }
+  /* 3 */
+}
 
 /**
  * Re-set default cursor for disabled elements.
  */
+/* line 299, ../sass/partials/_normalize.scss */
 button[disabled],
 html input[disabled] {
-  cursor: default; }
+  cursor: default;
+}
 
 /**
  * Remove inner padding and border in Firefox 4+.
  */
+/* line 308, ../sass/partials/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 /**
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
+/* line 318, ../sass/partials/_normalize.scss */
 input {
-  line-height: normal; }
+  line-height: normal;
+}
 
 /**
  * It's recommended that you don't attempt to style these elements.
@@ -270,105 +330,138 @@ input {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
+/* line 331, ../sass/partials/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Fix the cursor style for Chrome's increment/decrement buttons. For certain
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
+/* line 343, ../sass/partials/_normalize.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
-  height: auto; }
+  height: auto;
+}
 
 /**
  * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
  * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
+/* line 353, ../sass/partials/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
   /* 2 */
-  box-sizing: content-box; }
+  box-sizing: content-box;
+}
 
 /**
  * Remove inner padding and search cancel button in Safari and Chrome on OS X.
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
+/* line 367, ../sass/partials/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none; }
+  -webkit-appearance: none;
+}
 
 /**
  * Define consistent border, margin, and padding.
  */
+/* line 375, ../sass/partials/_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em; }
+  padding: 0.35em 0.625em 0.75em;
+}
 
 /**
  * 1. Correct `color` not being inherited in IE 8/9.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
+/* line 386, ../sass/partials/_normalize.scss */
 legend {
   border: 0;
   /* 1 */
   padding: 0;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Remove default vertical scrollbar in IE 8/9.
  */
+/* line 395, ../sass/partials/_normalize.scss */
 textarea {
-  overflow: auto; }
+  overflow: auto;
+}
 
 /**
  * Don't inherit the `font-weight` (applied by a rule above).
  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
  */
+/* line 404, ../sass/partials/_normalize.scss */
 optgroup {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 /* Tables
    ========================================================================== */
 /**
  * Remove most spacing between table cells.
  */
+/* line 415, ../sass/partials/_normalize.scss */
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
+/* line 421, ../sass/partials/_normalize.scss */
 td,
 th {
-  padding: 0; }
+  padding: 0;
+}
 
+/* line 5, ../sass/main.scss */
 html {
   font-size: 16px;
   font-family: 'Source Sans Pro', serif;
-  font-weight: 300; }
-  @media screen and (max-width: 1450px) {
-    html {
-      font-size: 15px; } }
-  @media screen and (max-width: 950px) {
-    html {
-      font-size: 13.5px; } }
+  font-weight: 300;
+}
+@media screen and (max-width: 1450px) {
+  /* line 5, ../sass/main.scss */
+  html {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 950px) {
+  /* line 5, ../sass/main.scss */
+  html {
+    font-size: 13.5px;
+  }
+}
 
+/* line 19, ../sass/main.scss */
 body {
-  position: relative; }
+  position: relative;
+}
 
+/* line 23, ../sass/main.scss */
 a {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
+/* line 27, ../sass/main.scss */
 a.btn-primary {
   display: inline-block;
   padding: 10px 15px;
@@ -377,64 +470,102 @@ a.btn-primary {
   font-size: 1.2rem;
   font-weight: 400;
   color: white;
-  transition: all 0.5s; }
-  a.btn-primary:hover {
-    background-color: #db381f; }
+  transition: all 0.5s;
+}
+/* line 37, ../sass/main.scss */
+a.btn-primary:hover {
+  background-color: #db381f;
+}
 
+/* line 42, ../sass/main.scss */
 header {
   background-postion: cover cover;
   background-size: cover;
   padding: 0% 6% 2%;
-  z-index: -30; }
-  @media screen and (max-width: 640px) {
-    header .logo {
-      display: none; } }
-  header a {
-    font-size: 1.2rem;
-    font-weight: 400;
-    color: rgba(255, 255, 255, 0.7);
-    text-transform: uppercase;
-    display: inline-block;
-    padding-top: 30px; }
-    header a:hover {
-      color: white; }
+  z-index: -30;
+}
+@media screen and (max-width: 640px) {
+  /* line 48, ../sass/main.scss */
+  header .logo {
+    display: none;
+  }
+}
+/* line 54, ../sass/main.scss */
+header a {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: uppercase;
+  display: inline-block;
+  padding-top: 30px;
+}
+/* line 62, ../sass/main.scss */
+header a:hover {
+  color: white;
+}
+/* line 67, ../sass/main.scss */
+header .links {
+  display: inline-block;
+  float: right;
+}
+/* line 71, ../sass/main.scss */
+header .links a {
+  padding: 30px 15px;
+}
+@media screen and (max-width: 640px) {
+  /* line 67, ../sass/main.scss */
   header .links {
-    display: inline-block;
-    float: right; }
-    header .links a {
-      padding: 30px 15px; }
-    @media screen and (max-width: 640px) {
-      header .links {
-        text-align: center;
-        display: block;
-        float: none; } }
-  header .hero-text {
-    padding: 15% 20% 23% 20%;
     text-align: center;
-    color: rgba(255, 255, 255, 0.9); }
-    header .hero-text h1 {
-      font-size: 5.5rem;
-      font-weight: 300;
-      margin-bottom: 30px; }
-      @media screen and (max-width: 1450px) {
-        header .hero-text h1 {
-          font-size: 4.5rem;
-          margin-bottom: 0; } }
-      @media screen and (max-width: 640px) {
-        header .hero-text h1 {
-          font-size: 2.3rem; } }
-    header .hero-text h2 {
-      font-size: 2.3rem;
-      font-weight: 200;
-      margin-bottom: 75px; }
-      @media screen and (max-width: 1450px) {
-        header .hero-text h2 {
-          font-size: 2rem;
-          margin-bottom: 30px; } }
-      @media screen and (max-width: 640px) {
-        header .hero-text h2 {
-          font-size: 1.3rem; } }
+    display: block;
+    float: none;
+  }
+}
+/* line 82, ../sass/main.scss */
+header .hero-text {
+  padding: 15% 20% 23% 20%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+}
+/* line 87, ../sass/main.scss */
+header .hero-text h1 {
+  font-size: 5.5rem;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 1450px) {
+  /* line 87, ../sass/main.scss */
+  header .hero-text h1 {
+    font-size: 4.5rem;
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 87, ../sass/main.scss */
+  header .hero-text h1 {
+    font-size: 2.3rem;
+  }
+}
+/* line 102, ../sass/main.scss */
+header .hero-text h2 {
+  font-size: 2.3rem;
+  font-weight: 200;
+  margin-bottom: 75px;
+}
+@media screen and (max-width: 1450px) {
+  /* line 102, ../sass/main.scss */
+  header .hero-text h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 102, ../sass/main.scss */
+  header .hero-text h2 {
+    font-size: 1.3rem;
+  }
+}
 
+/* line 119, ../sass/main.scss */
 .bg-image {
   position: absolute;
   top: 0;
@@ -442,14 +573,36 @@ header {
   width: 100%;
   height: 850px;
   background-image: url("../images/arm.jpg");
-  background-size: cover; }
-  @media screen and (min-width: 1450px) {
-    .bg-image {
-      height: 1100px; } }
-  @media screen and (max-width: 918px) {
-    .bg-image {
-      height: 700px; } }
+  background-size: cover;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+@media screen and (min-width: 1450px) {
+  /* line 119, ../sass/main.scss */
+  .bg-image {
+    height: 1100px;
+  }
+}
+@media screen and (max-width: 918px) {
+  /* line 119, ../sass/main.scss */
+  .bg-image {
+    height: 700px;
+  }
+}
+/* line 138, ../sass/main.scss */
+.bg-image .white-fade {
+  width: 100%;
+  height: 7px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, #ffffff));
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), #ffffff);
+  background-image: -moz-linear-gradient(rgba(255, 255, 255, 0), #ffffff);
+  background-image: -o-linear-gradient(rgba(255, 255, 255, 0), #ffffff);
+  background-image: linear-gradient(rgba(255, 255, 255, 0), #ffffff);
+  position: absolute;
+  bottom: 0;
+}
 
+/* line 147, ../sass/main.scss */
 .hero-pebble {
   width: 28%;
   height: 600px;
@@ -460,125 +613,283 @@ header {
   margin-left: 36%;
   margin-top: -17%;
   position: relative;
-  z-index: 0; }
-  @media screen and (max-width: 1450px) {
-    .hero-pebble {
-      height: 450px; } }
-  @media screen and (max-width: 640px) {
-    .hero-pebble {
-      margin-top: 60px;
-      width: 60%;
-      margin-left: 20%; } }
+  z-index: 0;
+}
+@media screen and (max-width: 1450px) {
+  /* line 147, ../sass/main.scss */
+  .hero-pebble {
+    height: 450px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 147, ../sass/main.scss */
+  .hero-pebble {
+    margin-top: 60px;
+    width: 60%;
+    margin-left: 20%;
+  }
+}
 
+/* line 171, ../sass/main.scss */
 section {
-  text-align: center; }
-  section h2 {
-    font-size: 2rem;
-    font-weight: 400;
-    text-transform: uppercase;
-    margin-top: 45px; }
-  section blockquote {
-    padding-left: 2%;
-    font-size: 1rem;
-    font-weight: 300; }
+  text-align: center;
+}
+/* line 174, ../sass/main.scss */
+section h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 70px;
+}
+/* line 181, ../sass/main.scss */
+section blockquote {
+  padding-left: 2%;
+  font-size: 1rem;
+  font-weight: 300;
+}
+/* line 187, ../sass/main.scss */
+section p, section pre {
+  margin: 0 28%;
+  text-align: left;
+}
+/* line 191, ../sass/main.scss */
+section p span, section pre span {
+  font-family: monospace;
+}
+@media screen and (max-width: 640px) {
+  /* line 187, ../sass/main.scss */
   section p, section pre {
-    margin: 0 28%;
-    text-align: left; }
-    section p span, section pre span {
-      font-family: monospace; }
-    @media screen and (max-width: 640px) {
-      section p, section pre {
-        margin: 0 8%; } }
-  section pre {
-    text-align: left;
-    white-space: pre-wrap; }
-  section .thumbnail a {
-    color: rgba(0, 0, 0, 0.9);
-    font-weight: 400;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.6);
-    text-transform: uppercase;
-    font-size: 0.9rem; }
-    section .thumbnail a:hover {
-      color: black;
-      border-bottom: 1px solid black; }
-  section a.btn-primary {
-    margin: 20px 0; }
+    margin: 0 8%;
+  }
+}
+/* line 200, ../sass/main.scss */
+section pre {
+  text-align: left;
+  white-space: pre-wrap;
+}
+/* line 206, ../sass/main.scss */
+section .thumbnail a {
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: 400;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.6);
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+/* line 213, ../sass/main.scss */
+section .thumbnail a:hover {
+  color: black;
+  border-bottom: 1px solid black;
+}
+/* line 219, ../sass/main.scss */
+section a.btn-primary {
+  margin: 20px 0;
+}
 
+/* line 224, ../sass/main.scss */
+.reviews {
+  margin-top: 50px;
+  padding: 75px 0px;
+  background-color: #eee;
+}
+/* line 229, ../sass/main.scss */
+.reviews .press-link {
+  display: inline-block;
+  height: 80px;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 0.65;
+  transition: opacity 0.5s;
+}
+/* line 238, ../sass/main.scss */
+.reviews .press-link:hover {
+  opacity: 1;
+}
+/* line 242, ../sass/main.scss */
+.reviews .press-link:last-child {
+  margin-right: 0;
+}
+@media screen and (max-width: 640px) {
+  /* line 229, ../sass/main.scss */
+  .reviews .press-link {
+    display: block;
+    width: 50%;
+    margin: 13px 25% 0;
+  }
+}
+/* line 253, ../sass/main.scss */
+.reviews .c-net {
+  width: 100px;
+  background-image: url("../images/c-net.png");
+  margin-right: 25px;
+}
+/* line 259, ../sass/main.scss */
+.reviews .pcmag {
+  width: 90px;
+  margin-right: 11px;
+  background-image: url("../images/pcmag.png");
+}
+/* line 265, ../sass/main.scss */
+.reviews .appadvice {
+  width: 65px;
+  background-image: url("../images/appadvice.png");
+}
+/* line 270, ../sass/main.scss */
+.reviews .pocketlint {
+  width: 200px;
+  margin-right: 23px;
+  background-image: url("../images/pocketlint.png");
+}
+@media screen and (max-width: 640px) {
+  /* line 270, ../sass/main.scss */
+  .reviews .pocketlint {
+    width: 70%;
+    margin: 13px 15% 0;
+  }
+}
+/* line 280, ../sass/main.scss */
+.reviews .connectedly {
+  width: 270px;
+  background-image: url("../images/connectedly.png");
+}
+@media screen and (max-width: 640px) {
+  /* line 280, ../sass/main.scss */
+  .reviews .connectedly {
+    width: 80%;
+    margin: 13px 10% 0;
+  }
+}
+
+/* line 290, ../sass/main.scss */
 footer {
-  margin-top: 90px;
   padding: 50px 6%;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: black;
   color: rgba(255, 255, 255, 0.45);
-  font-size: 1.1rem; }
-  footer a {
-    color: rgba(255, 255, 255, 0.77); }
-    footer a:hover {
-      color: rgba(255, 255, 255, 0.9); }
+  font-size: 1.1rem;
+}
+/* line 296, ../sass/main.scss */
+footer a {
+  color: rgba(255, 255, 255, 0.77);
+}
+/* line 299, ../sass/main.scss */
+footer a:hover {
+  color: rgba(255, 255, 255, 0.9);
+}
+/* line 304, ../sass/main.scss */
+footer div {
+  float: left;
+  margin-top: 0;
+}
+/* line 308, ../sass/main.scss */
+footer div h3 {
+  font-size: 2.2rem;
+  margin: 0;
+  font-weight: 300;
+}
+@media screen and (max-width: 640px) {
+  /* line 304, ../sass/main.scss */
   footer div {
-    float: left;
-    margin-top: 0; }
-    footer div h3 {
-      font-size: 2.2rem;
-      margin: 0;
-      font-weight: 300; }
-    @media screen and (max-width: 640px) {
-      footer div {
-        float: none; } }
-  footer .links {
-    margin-top: 55px;
-    float: right; }
-    footer .links a {
-      color: rgba(255, 255, 255, 0.77);
-      font-weight: 400;
-      text-transform: uppercase;
-      display: inline-block;
-      padding: 5px 15px;
-      font-size: 1.2rem; }
-      footer .links a:hover {
-        color: white; }
-    @media screen and (max-width: 640px) {
-      footer .links {
-        margin-top: 0px;
-        float: none; } }
-  footer a.image-btn {
-    display: inline-block;
-    margin: 20px 0; }
-    footer a.image-btn img {
-      width: 186px;
-      height: 50px; }
-  footer .legal {
     float: none;
-    font-size: 0.85rem;
-    clear: both;
-    text-align: center; }
-    footer .legal p, footer .legal section pre, section footer .legal pre {
-      width: 100%;
-      text-align: center;
-      font-weight: 400;
-      color: rgba(255, 255, 255, 0.2); }
-      footer .legal p a, footer .legal section pre a, section footer .legal pre a {
-        color: rgba(255, 255, 255, 0.4); }
-  @media screen and (max-width: 640px) {
-    footer {
-      text-align: center; } }
+  }
+}
+/* line 319, ../sass/main.scss */
+footer .links {
+  margin-top: 55px;
+  float: right;
+}
+/* line 323, ../sass/main.scss */
+footer .links a {
+  color: rgba(255, 255, 255, 0.77);
+  font-weight: 400;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 5px 15px;
+  font-size: 1.2rem;
+}
+/* line 331, ../sass/main.scss */
+footer .links a:hover {
+  color: white;
+}
+@media screen and (max-width: 640px) {
+  /* line 319, ../sass/main.scss */
+  footer .links {
+    margin-top: 0px;
+    float: none;
+  }
+}
+/* line 342, ../sass/main.scss */
+footer a.image-btn {
+  clear: both;
+  display: block;
+  padding-top: 20px;
+  margin: 40px auto;
+  width: 150px;
+  opacity: 0.65;
+  transition: opacity 0.5s;
+}
+/* line 351, ../sass/main.scss */
+footer a.image-btn:hover {
+  opacity: 1;
+}
+/* line 355, ../sass/main.scss */
+footer a.image-btn img {
+  width: 186px;
+  height: 50px;
+}
+/* line 361, ../sass/main.scss */
+footer .legal {
+  float: none;
+  font-size: 0.85rem;
+  clear: both;
+  text-align: center;
+}
+/* line 367, ../sass/main.scss */
+footer .legal p, footer .legal section pre, section footer .legal pre {
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.2);
+}
+/* line 373, ../sass/main.scss */
+footer .legal p a, footer .legal section pre a, section footer .legal pre a {
+  color: rgba(255, 255, 255, 0.4);
+}
+@media screen and (max-width: 640px) {
+  /* line 290, ../sass/main.scss */
+  footer {
+    text-align: center;
+  }
+}
 
+/* line 384, ../sass/main.scss */
 .card-types-row {
-  margin: 60px 20% 0; }
-  @media screen and (max-width: 1450px) {
-    .card-types-row {
-      margin: 60px 10% 0; } }
-  @media screen and (max-width: 640px) {
-    .card-types-row {
-      margin: 60px 0% 0; } }
-  .card-types-row .thumbnail {
-    display: inline-block;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    width: 160px;
-    height: 360px;
-    vertical-align: top; }
-    .card-types-row .thumbnail i {
-      display: block;
-      text-align: center;
-      font-size: 1.95rem;
-      margin-top: 23px; }
+  margin: 60px 20% 0;
+}
+@media screen and (max-width: 1450px) {
+  /* line 384, ../sass/main.scss */
+  .card-types-row {
+    margin: 60px 10% 0;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 384, ../sass/main.scss */
+  .card-types-row {
+    margin: 60px 0% 0;
+  }
+}
+/* line 395, ../sass/main.scss */
+.card-types-row .thumbnail {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 160px;
+  height: 360px;
+  vertical-align: top;
+}
+/* line 403, ../sass/main.scss */
+.card-types-row .thumbnail i {
+  display: block;
+  text-align: center;
+  font-size: 1.95rem;
+  margin-top: 23px;
+}

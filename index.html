@@ -21,8 +21,8 @@
 		$(window).scroll(function(e){
 			var scrolled = $(window).scrollTop();
 			$('.bg-image').css({
-				'top': scrolled * 0.25,
-				'opacity': 1 - scrolled * 0.0013
+				top: scrolled * 0.18,
+				backgroundPosition: '0 ' + scrolled * 0.4 + 'px'
 			});
 		});
 
@@ -62,7 +62,9 @@
 		</div>
 	</header>
 
-	<div class="bg-image"></div>
+	<div class="bg-image">
+		<div class="white-fade"></div>
+	</div>
 
 	<div class="hero-pebble"></div>
 
@@ -291,21 +293,35 @@
 		<p>If you like Pebble Cards and would like to show your support, please consider making a donation.</p>
 
 		<a class="btn-primary" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=X3FRBC4X6E88N&lc=US&item_name=Pebble%20Cards%20Development&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted">Donate Now »</a>
+		
+		<div class="reviews">
+			<a href="http://www.cnet.com/pictures/the-best-pebble-smartwatch-apps/9/" class="press-link c-net">
+			</a>
+			<a href="http://www.pcmag.com/article2/0,2817,2430329,00.asp" class="press-link pcmag">
+			</a>
+			<a href="http://www.connectedly.com/add-customizable-cards-your-pebble-watch-face-pebble-cards" class="press-link connectedly">
+			</a>
+			<a href="http://www.pocket-lint.com/news/127003-pebble-2-0-the-first-eight-apps-to-download-to-your-new-watch" class="press-link pocketlint">
+			</a>
+			<a href="http://appadvice.com/appnn/2013/11/pebble-cards-brings-customizable-screens-to-the-popular-smart-watch" class="press-link appadvice">
+			</a>
+		</div>
 	</section>
+
 
 	<footer>
 		<div>
 			<h3>Need help? Got feedback?</h3>
 			<p>Visit the <a href="http://forums.getpebble.com/discussion/8525/watch-app-sdk2-pebble-cards-customizable-watch-screen-for-pebble">Pebble Cards thread on Pebble Forums</a> or <a href="mailto:pebblecards@keanulee.com">contact us</a>.</p>
-			<a class="image-btn" href="https://apps.getpebble.com/applications/529bb3eef33e76aaf6000004">
-				<img src="http://pblweb.com/badge/529bb3eef33e76aaf6000004/black/medium/" alt="Pebble Cards is available on the Pebble appstore" />
-			</a>
 		</div>
 		<div class="links">
 			<a href="#help">Help</a>
 			<a href="#api">API</a>
 			<a href="#donate">Donate</a>
 		</div>
+		<a class="image-btn" href="https://apps.getpebble.com/applications/529bb3eef33e76aaf6000004">
+				<img src="http://pblweb.com/badge/529bb3eef33e76aaf6000004/black/medium/" alt="Pebble Cards is available on the Pebble appstore" />
+			</a>
 		<div class="legal">
 			<p>This is a personal project by <a href="https://keanulee.com">Keanu Lee</a>, with design input from <a href="http://tonyjing.com">Tony Jing</a>. &copy; 2014</p>
 		</div>
