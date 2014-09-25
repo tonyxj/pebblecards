@@ -226,30 +226,6 @@ section {
 	padding: 75px 0px;
 	background-color: #eee;
 
-	.press-link {
-		display: inline-block;
-		height: 80px;
-		background-size: contain;
-		background-position: center center;
-		background-repeat: no-repeat;
-		opacity: 0.65;
-		transition: opacity 0.5s;
-
-		&:hover {
-			opacity: 1;
-		}
-
-		&:last-child {
-			margin-right: 0;
-		}
-
-		@media screen and (max-width:640px) {
-			display: block;
-			width: 50%;
-			margin: 13px 25% 0;
-		}
-	}
-
 	.c-net {
 		width: 100px;
 		background-image: url('../images/c-net.png');
@@ -281,8 +257,31 @@ section {
 		width: 270px;
 		background-image: url('../images/connectedly.png');
 		@media screen and (max-width:640px) {
-			width: 80%;
-			margin: 13px 10% 0;
+			width: 70%;
+			margin: 13px 15% 0;
+		}
+	}
+	.press-link {
+		display: inline-block;
+		height: 80px;
+		background-size: contain;
+		background-position: center center;
+		background-repeat: no-repeat;
+		opacity: 0.65;
+		transition: opacity 0.5s;
+
+		&:hover {
+			opacity: 1;
+		}
+
+		&:last-child {
+			margin-right: 0;
+		}
+
+		@media screen and (max-width:640px) {
+			display: block;
+			width: 50%;
+			margin: 25px 25% 0;
 		}
 	}
 }
